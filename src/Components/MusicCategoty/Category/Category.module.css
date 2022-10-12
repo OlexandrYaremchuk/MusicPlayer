@@ -1,0 +1,56 @@
+.Category {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 29px;
+}
+.Category img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+.Category p {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.play {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  fill-opacity: 0;
+}
+
+.Category:hover .play {
+  fill: rgb(252, 252, 255);
+  fill-opacity: 1;
+
+  transition-duration: 0.5s;
+  transition-property: fill-opacity;
+}
+.playBox {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 255, 255, 0);
+}
+.playBox:hover {
+  background-color: rgba(0, 0, 0, 0.507);
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: background-color;
+}

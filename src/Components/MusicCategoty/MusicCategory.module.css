@@ -1,0 +1,8 @@
+.MusicCategory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.MusicCategoryBox h3 {
+  margin-left: 20px;
+}

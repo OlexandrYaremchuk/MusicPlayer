@@ -1,0 +1,16 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+.HeaderIcon {
+  display: flex;
+}
+.HeaderIcon li {
+  margin-right: 15px;
+}
+.IconMenu {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}

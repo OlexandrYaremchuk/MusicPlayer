@@ -1,0 +1,41 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.SearchBox {
+  width: 70%;
+  height: 41px;
+  position: relative;
+  align-items: center;
+}
+.SearchInput {
+  width: 100%;
+  height: 41px;
+  border-radius: 12px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(65, 64, 64);
+}
+.iconMenu {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50% -50%);
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+}
+.boxName {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.boxName h3 {
+  margin-left: 20px;
+}
+input:focus-visible {
+  outline: none;
+}

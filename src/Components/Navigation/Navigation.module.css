@@ -1,0 +1,63 @@
+.Navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: auto;
+  background-color: #080849;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+.Navigation-list {
+  padding: 30px;
+  margin: 0;
+}
+.NavigationList li {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 0 40px 12px 0;
+
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.Navigation img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10%;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.MusicPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Track,
+.Artist {
+  margin: 8px 0 0 0;
+  color: #fff;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+}
+.Artist {
+  font-weight: 400;
+  margin-top: 0px;
+}
+.iconMenu {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  margin-right: 10px;
+}
