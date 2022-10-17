@@ -20,6 +20,13 @@ const Navigation = (params) => {
 
                 </Link>
 
+                <a href='/Library'><li>
+                    <svg className={style.iconMenu}>
+                        <use href={sprite + '#radio-checked2'}></use>
+                    </svg>
+                    Library
+                </li></a>
+
                 <Link to='/SearchPage'>
                     <li>
                         <svg className={style.iconMenu}>

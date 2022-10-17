@@ -1,0 +1,14 @@
+.musicType {
+  display: flex;
+  justify-content: center;
+}
+.MusicTypeS {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.CategoryName {
+  margin-left: 12%;
+}

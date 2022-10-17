@@ -4,6 +4,13 @@
   height: 74px;
   margin: 0 20px 20px 0;
 }
+.shadow {
+  width: 249px;
+  height: 74px;
+}
+.FilterElement:hover img {
+  opacity: 0.35;
+}
 .FilterElement img {
   width: 249px;
   height: 74px;
@@ -18,4 +25,13 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
+  color: #fff;
+}
+.play {
+  position: absolute;
+  fill: #fff;
+  width: 30px;
+  height: 30px;
+  top: 35%;
+  left: 12%;
 }
