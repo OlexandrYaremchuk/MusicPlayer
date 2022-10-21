@@ -16,7 +16,7 @@ const Filter = (props) => {
         <div className={style.Filter}>
             {filters}
         </div>
-
+        
 
     )
 
