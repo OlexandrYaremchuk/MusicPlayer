@@ -5,14 +5,14 @@ import Library from './Components/Library/Library';
 import Navigation from './Components/Navigation/Navigation';
 import SearchPage from './Components/Search/SearchPage';
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
       <div className="App">
         <div className="Container">
           <Navigation />
           <Routes>
-            <Route path="HomePage" element={<HomePage />} />
+            <Route path="HomePage" element={<HomePage Data={props.stateAPP.filterData} />} />
             <Route path="SearchPage" element={<SearchPage />} />
             <Route path="Library" element={<Library />} />
           </Routes>

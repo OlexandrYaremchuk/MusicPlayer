@@ -4,12 +4,12 @@ import Filter from './../Filter/Filter'
 import Header from './../Home/Header/Header';
 import MusicCategory from './../MusicCategoty/MusicCategory';
 
-function HomePage() {
+function HomePage(props) {
     return (
 
         <div className="Main">
             <Header />
-            <Filter />
+            <Filter Data={props.Data} />
             <MusicCategory />
         </div>
 
