@@ -4,12 +4,12 @@ import SearchMain from "./SearchMain/SearchMain";
 import '../../App.css';
 import Header from "../Home/Header/Header";
 
-const SearchPage = (params) => {
+const SearchPage = (props) => {
     return (
         <div className='Main'>
             <Header />
             <Search />
-            <SearchMain />
+            <SearchMain SearhPage={props.SearhPage} />
         </div >
 
 

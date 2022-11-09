@@ -1,7 +1,6 @@
 .Navigation {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 30%;
   height: auto;
   background-color: #080849;
@@ -34,6 +33,7 @@
   margin-bottom: 0;
 }
 .MusicPlay {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -12,9 +12,28 @@ function App(props) {
         <div className="Container">
           <Navigation />
           <Routes>
-            <Route path="HomePage" element={<HomePage Data={props.stateAPP.filterData} />} />
-            <Route path="SearchPage" element={<SearchPage />} />
-            <Route path="Library" element={<Library />} />
+            <Route
+              path="HomePage"
+              element={
+                <HomePage
+                  Data={props.stateAPP.filterData}
+                  CategoryData={props.stateAPP.CategoryData}
+                />
+              }
+            />
+            <Route
+              path="SearchPage"
+              element={<SearchPage SearhPage={props.stateAPP.SearhPage} />}
+            />
+            <Route
+              path="Library"
+              element={
+                <Library
+                  LibraryData={props.stateAPP.LibraryData}
+                  createNewPlaylist={props.createNewPlaylist}
+                />
+              }
+            />
           </Routes>
         </div>
       </div>

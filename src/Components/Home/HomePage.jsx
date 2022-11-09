@@ -10,7 +10,7 @@ function HomePage(props) {
         <div className="Main">
             <Header />
             <Filter Data={props.Data} />
-            <MusicCategory />
+            <MusicCategory CategoryData={props.CategoryData} />
         </div>
 
     );
