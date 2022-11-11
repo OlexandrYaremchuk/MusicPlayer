@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 28px;
+  justify-content: space-between;
 }
 img {
   width: 80px;
@@ -16,4 +17,16 @@ img {
 
   color: #ffffff;
   margin-left: 32px;
+}
+.listBox {
+  display: flex;
+  align-items: center;
+}
+.link {
+  margin-left: 30%;
+}
+.remove {
+  width: 28px;
+  fill: #4c85c2;
+  margin-right: 80px;
 }
