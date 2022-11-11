@@ -1,7 +1,5 @@
 import React from "react";
 import style from './LibraryLIst.module.css'
-import sprite from '../../../image/sprite.svg'
-import { Link } from 'react-router-dom'
 
 
 const LibraryList = (props) => {

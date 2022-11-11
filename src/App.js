@@ -4,6 +4,7 @@ import HomePage from './Components/Home/HomePage';
 import Library from './Components/Library/Library';
 import Navigation from './Components/Navigation/Navigation';
 import SearchPage from './Components/Search/SearchPage';
+import Settings from './Components/Settings/Settings';
 
 function App(props) {
   return (
@@ -34,6 +35,7 @@ function App(props) {
                 />
               }
             />
+            <Route path="Settings" element={<Settings />} />
           </Routes>
         </div>
       </div>

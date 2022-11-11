@@ -1,0 +1,22 @@
+.settings {
+  /* background-color: aqua; */
+  width: 80%;
+  background: rgb(167, 0, 208);
+  background: linear-gradient(
+    169deg,
+    rgba(167, 0, 208, 1) 0%,
+    rgba(0, 0, 0, 1) 17%,
+    rgba(0, 0, 0, 0.896796218487395) 100%
+  );
+}
+.navBox {
+  margin: 52px 0 0 37px;
+  display: flex;
+  align-items: center;
+}
+.IconMenu {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  margin-right: 20px;
+}

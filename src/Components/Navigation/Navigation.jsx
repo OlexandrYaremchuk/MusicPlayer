@@ -19,8 +19,6 @@ const Navigation = (params) => {
                     </li>
 
                 </Link>
-
-
                 <Link to='/SearchPage'>
                     <li>
                         <svg className={style.iconMenu}>

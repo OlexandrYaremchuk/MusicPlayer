@@ -1,6 +1,7 @@
 import React from "react";
 import sprite from './../../../image/sprite.svg';
 import style from './Header.module.css';
+import { Link } from 'react-router-dom'
 
 const Header = (params) => {
     return (
@@ -17,10 +18,14 @@ const Header = (params) => {
                     </svg>
                 </li>
                 <li>
-                    <svg className={style.IconMenu}>
-                        <use href={sprite + '#cog'}></use>
-                    </svg>
+                    <Link to='/Settings'>
+                        <svg className={style.IconMenu}>
+                            <use href={sprite + '#cog'}></use>
+                        </svg>
+                    </Link>
                 </li>
+
+
             </ul>
         </div>
 
