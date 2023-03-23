@@ -1,37 +1,30 @@
-.FilterElement {
-  position: relative;
-  width: 249px;
-  height: 74px;
-  margin: 0 20px 20px 0;
+.topAlbumsBox {
+  width: 32vw;
+  display: flex;
+  margin: 0 1vw 2vw 0;
 }
-.shadow {
-  width: 249px;
-  height: 74px;
-}
-.FilterElement:hover img {
+.topAlbumsBox:hover img {
   opacity: 0.35;
 }
-.FilterElement img {
+.FilterElement {
+  padding: 1vw;
+}
+.FilterElement span {
+  color: #fff;
+}
+
+/* .shadow {
   width: 249px;
   height: 74px;
+} */
+.shadow img {
+  width: 10vw;
+  height: auto;
   border-radius: 10px;
-
-  /* border-radius: 10%; */
 }
 .FilterName {
   font-size: 20px;
   font-weight: 500;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
   color: #fff;
-}
-.play {
-  position: absolute;
-  fill: #fff;
-  width: 30px;
-  height: 30px;
-  top: 35%;
-  left: 12%;
+  margin: 0;
 }

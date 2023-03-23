@@ -1,11 +1,13 @@
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import './App.css';
-import HomePage from './Components/Home/HomePage';
-import Library from './Components/Library/Library';
-import MusicList from './Components/Library/MusicList/MusicList';
-import Navigation from './Components/Navigation/Navigation';
-import SearchPage from './Components/Search/SearchPage';
-import Settings from './Components/Settings/Settings';
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import "./App.css";
+import HomePage from "./Components/Home/HomePage";
+import Tracks from "./Components/Home/Tracks/Tracks";
+import TracksBox from "./Components/Home/Tracks/TracksBox";
+import Library from "./Components/Library/Library";
+import MusicList from "./Components/Library/MusicList/MusicList";
+import Navigation from "./Components/Navigation/Navigation";
+import SearchPage from "./Components/Search/SearchPage";
+import Settings from "./Components/Settings/Settings";
 
 function App(props) {
   return (
@@ -41,6 +43,8 @@ function App(props) {
             />
             <Route path="Settings" element={<Settings />} />
             <Route path="MusicList" element={<MusicList />} />
+            <Route path="TracksBox/:id" element={<TracksBox />} />
+            {/* <Route path="Tracks/:id" element={<Tracks />} /> */}
           </Routes>
         </div>
       </div>

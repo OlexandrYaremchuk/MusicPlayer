@@ -1,0 +1,25 @@
+.trackItem {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4vw;
+}
+.trackBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1vw;
+}
+.trackBox h5,
+p {
+  margin-right: 2vw;
+  font-size: 1vw;
+}
+
+audio {
+  width: 42vw;
+  height: 2vw;
+  margin-left: 4vw;
+}
